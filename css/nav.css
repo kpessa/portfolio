@@ -6,6 +6,7 @@ header {
   background-color: var(--clr-drk-grey);
   border-top: 2px solid black;
   border-bottom: 2px solid black;
+  font-family: 'Audiowide', cursive;
 }
 
 .nav {
@@ -37,6 +38,7 @@ header {
   display: block;
   font-size: 1.125em;
   font-weight: 300;
+  text-transform: uppercase;
   text-align: center;
   padding: 1em;
   background-color: lightgrey;
@@ -126,18 +128,35 @@ Media Queries
   }
 
   .nav__logo {
-    margin-right: auto;
+    /* margin-right: auto; */
+    margin-left: 20px;
+  }
+
+  .nav__logo h1 {
+    font-size: 30px;
+    font-weight: 50;
     margin-left: 20px;
   }
 
   .nav__links li {
-    width: 150px;
-    margin: 0 50px;
-    font-size: 1.125em;
+    width: 180px;
+    margin: 0 10px;
+    font-size: 1em;
   }
 
   .nav__links a {
     width: 100%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .nav__logo h1 {
+    font-size: 40px;
+  }
+  
+  .nav__links li {
+    width: 220px;
+    font-size: 20px;
   }
 
 }
