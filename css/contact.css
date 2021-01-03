@@ -30,6 +30,10 @@ span.phone {
 /* !                 TABLET                   */
 /* ! ---------------------------------------- */
 @media only screen and (min-width: 768px) {
+  h1#contact {
+    padding-top: 7px;
+  }
+
   .contact-flex span.phone {
     font-size: 1.25rem;
   }
@@ -56,5 +60,4 @@ span.phone {
     padding-left: var(--size);
     padding-right: var(--size);
   }
-
 }

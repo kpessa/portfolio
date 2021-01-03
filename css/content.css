@@ -49,7 +49,8 @@
     text-align: right;
   }
 
-  .content p {
+  .content p,
+  .work {
     border-left: 2px solid lightgrey;
 
     padding-left: 15px;
@@ -68,11 +69,11 @@
 
 @media only screen and (min-width: 1025px) {
   
-  .content h1, .content p {
+  .content h1, .content p, .content div {
     margin-top: 30px;
   }
 
-  .content p {
+  .content p, .work {
     flex-basis: 60%;
     margin-right: 100px;
     margin-bottom: 30px;
