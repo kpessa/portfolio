@@ -1,0 +1,57 @@
+/* ! ---------------------------------------- */
+/* !           MOBILE / SMART-PHONE           */
+/* ! ---------------------------------------- */
+
+.about-me {
+  border-top: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  background-color: var(--clr-drk-grey);
+}
+
+.about-me > * {
+  text-align: center;
+}
+
+.about-me h1 {
+  margin-top: 20px;
+  color: lightgrey;
+  text-shadow: 1px 1px 1px black,
+  2px 2px 1px orange,
+  4px 4px 2px black;
+}
+
+.about-me p {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding: 0 40px;
+  color: lightgrey;
+}
+
+/* ! ---------------------------------------- */
+/* !                 TABLET                   */
+/* ! ---------------------------------------- */
+@media only screen and (min-width: 768px) {
+  .about-me {
+    flex-direction: row;
+  }
+
+  .about-me h1 {
+    margin-top: 10px;
+    margin-right: 10px;
+    padding-right: 0px;
+    flex-basis: 25%;
+    align-self: flex-start;
+    justify-self: flex-end;
+    text-align: right;
+  }
+
+  .about-me p {
+    padding-left: 15px;
+    flex-basis: auto;
+    align-self: flex-start;
+    text-align: left;
+  }
+}

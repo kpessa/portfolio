@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+
 :root {
   --clr-drk-blue: rgb(61, 90, 128);
   --clr-med-blue: rgb(152, 193, 217);
@@ -20,3 +22,13 @@ li {
 body {
   background-color: white;
 }
+
+h1 {
+  font-family: 'Audiowide', cursive;
+}
+
+p {
+  font-family: 'Redressed', cursive;
+  font-size: 1.25rem;
+}
+
