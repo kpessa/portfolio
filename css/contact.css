@@ -1,0 +1,60 @@
+/* ! ---------------------------------------- */
+/* !           MOBILE / SMART-PHONE           */
+/* ! ---------------------------------------- */
+.contact-flex a {
+  text-decoration: none;
+  color: lightgrey;
+  font-size: 20px;
+}
+
+.contact-flex a::before {
+  content: "  |  "
+}
+
+span.phone {
+  font-size: 16px;
+}
+
+.contact-flex span {
+  --size: 5px;
+  padding-left: var(--size);
+  padding-right: var(--size);
+}
+
+.contact-flex a:hover {
+  text-shadow: 1px 1px 2px black,
+    2px 2px 1px var(--clr-orange);
+}
+
+/* ! ---------------------------------------- */
+/* !                 TABLET                   */
+/* ! ---------------------------------------- */
+@media only screen and (min-width: 768px) {
+  .contact-flex span.phone {
+    font-size: 1.25rem;
+  }
+  
+  .contact-flex span {
+    font-size: 1.5rem;
+    --size: 10px;
+    padding-left: var(--size);
+    padding-right: var(--size);
+  }
+}
+
+/* ! ---------------------------------------- */
+/* !                DESKTOP                   */
+/* ! ---------------------------------------- */
+@media only screen and (min-width: 1025px) {
+  .contact-flex span.phone {
+    font-size: 1.5rem;
+  }
+
+  .contact-flex span {
+    font-size: 2rem;
+    --size: 15px;
+    padding-left: var(--size);
+    padding-right: var(--size);
+  }
+
+}
