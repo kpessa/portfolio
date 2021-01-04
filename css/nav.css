@@ -96,6 +96,24 @@ header {
   align-self: center;
 }
 
+.nav svg {
+  position: absolute;
+  right: 25px;
+  top: 22px;
+}
+
+.nav rect {
+  fill: lightgrey;
+}
+
+.nav__links {
+  display: none;
+}
+
+.nav__links.open {
+  display: flex;
+}
+
 /*  ----------------------------
 Media Queries
 ----------------------------  */
@@ -119,6 +137,14 @@ Media Queries
 
   .nav__logo h1:hover::after {
     opacity: 1;
+  }
+
+  .nav svg {
+    display: none;
+  }
+
+  .nav__links {
+    display: flex;
   }
 
   .nav__links a:nth-child(1) {
