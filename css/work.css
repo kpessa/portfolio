@@ -46,10 +46,12 @@ h1#work {
   margin-bottom: 10px;
 }
 
-#vanco-auc {
+#novid {
   grid-row: 1 /2;
   grid-column: 1/2;
 }
+
+
 
 /* ! ---------------------------------------- */
 /* !                 TABLET                   */
@@ -59,7 +61,7 @@ h1#work {
     display: grid;
     grid-template-columns: repeat(3, 18vw);
     /* grid-template-columns: auto minmax(0 1fr); */
-    grid-template-rows: repeat(2, 18vw);
+    grid-template-rows: repeat(3, 18vw);
     /* background-color: lightgrey; */
     gap: 10px;
   }
@@ -74,11 +76,13 @@ h1#work {
     font-size: 1.25vw;
   }
 
-  #vanco-auc {
-    grid-row: 1 /3;
+  #novid {
+    grid-row: 1/3;
     grid-column: 1/3;
   }
-
+  #novid img {
+    width: 100%;
+  }
 }
 
 /* ! ---------------------------------------- */
