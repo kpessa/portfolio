@@ -4,7 +4,7 @@
 .work {
   display: grid;
   grid-template-columns: 100%;
-  grid-template-rows: 300px 300px 300px;
+  grid-template-rows: 300px 300px 300px 300px;
   /* background-color: lightgrey; */
 }
 
@@ -51,6 +51,10 @@ h1#work {
   grid-column: 1/2;
 }
 
+.coding img {
+  width: 100%;
+}
+
 
 
 /* ! ---------------------------------------- */
@@ -83,6 +87,11 @@ h1#work {
   #novid img {
     width: 100%;
   }
+  .coding {
+    display:flex;
+    flex-direction: column;
+  }
+
 }
 
 /* ! ---------------------------------------- */
